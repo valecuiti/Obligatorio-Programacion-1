@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/buho.ico" type="image/x-icon">
+</head>
+
+<body class="bg-blanco">
+    <header>
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="#"><img class="icono" src="img/iconografia/usuario.png" alt="usuario"></a></li>
+                    <li><a href="#"></a>CONTACTO</li>
+                </ul>
+            </nav>
+            <a href="index.html"><img class="logo" src="img/iconografia/logo.svg" alt="logo chamberlain coffee"></a>
+            <nav>
+                <ul>
+                    <li><a href="catalogo.html">TIENDA</a></li>
+                    <li><a href="#"><img class="icono" src="img/iconografia/carrito.png" alt="carrito"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="bg-amarillito" id="contenedor-scallop">
+        <img class="scalloped-edge" src="img/scalloped-edge.png" alt="borde escamado header">
+    </div>
+
+    <main>
+        <section class="prod-ampliado bg-amarillito">
+            <div class="contenedor">
+                <div class="slider">
+                    <button id="anterior" class="btn-flecha"><img src="img/iconografia/flechita-izq.png" alt="boton flecha"></button>
+                    <div class="fondo-circulo">
+                        <img id="slider" src="" alt="imagen producto" class="icono-circular">
+                    </div>
+                    <button id="siguiente" class="btn-flecha"><img src="img/iconografia/flechita-der.png" alt="boton flecha"></button>
+                </div>
+                <div class="prod-info">
+                    <h3 id="nombre">Fancy Mouse - Café Intenso</h3>
+                    <div>
+                        <p class="precio-peso" id="precio-cantidad">$22.95 | 280g</p>
+                    </div>
+                    <p  id="descripcion" class="p-grande">Potente pero sin amargarte la vida — nuestro espresso orgánico está hecho para
+                        que tomes el shot perfecto cada vez. Con toques de chocolate oscuro y nueces tostadas, queda
+                        buenísimo tanto solo como con leche.</p>
+                    <div class="extra-info">
+                        <span>
+                            <img src="img/iconografia/sabor.png" alt="ilustracion de taza de cafe">
+                            <span class="txt-rosa" id="sabor">Maní, chocolate y caramelo</span>
+                        </span>
+                        <span>
+                            <img src="img/iconografia/origen.png" alt="ilustracion de taza de cafe">
+                            <span class="txt-amarillo" id="origen">Peru, Sumatra</span>
+                        </span>
+                        <span>
+                            <img src="img/iconografia/intensidad.png" alt="ilustracion de taza de cafe">
+                            <span class="txt-verde" id="intensidad">Intenso</span>
+                        </span>
+                    </div>
+                    <button class="btn-primary">Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+        <section class="interesar contenedor">
+            <h4 class="txt-rosa">También te puede interesar...</h4>
+            <div class="prod-similares catalogo"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img src="img/iconografia/sol.png" alt="dibujo sol con carita">
+            <p class="p-chico">Imágenes sacadas de<br>chamberlaincoffee.con</p>
+        </div>
+        <div>
+            <a href="https://www.tiktok.com/@chamberlaincoffee?lang=es"><img src="img/iconografia/icono-twitter.png"
+                    alt="icono twitter"></a>
+            <a href="https://www.pinterest.com/chamberlaincoffeepins/"><img src="img/iconografia/icono-pinterest.png"
+                    alt="icono pinterest"></a>
+            <a href="https://www.instagram.com/chamberlaincoffee/"><img src="img/iconografia/icono-instagram.png"
+                    alt="icono instagram"></a>
+        </div>
+    </footer>
+
+    <script src="js/datos.js"></script>
+    <script src="js/ampliacion.js"></script>
+</body>
+
+</html>

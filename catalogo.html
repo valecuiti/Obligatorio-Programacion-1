@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda | Chamberlain Coffee</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/buho.ico" type="image/x-icon">
+</head>
+
+<body class="bg-celeste">
+    <header>
+        <div class="header-verde">
+            <nav>
+                <ul>
+                    <li><a href="#"><img class="icono" src="img/iconografia/usuario-blanco.png" alt="usuario"></a></li>
+                    <li class="txt-blanco"><a href="#"></a>CONTACTO</li>
+                </ul>
+            </nav>
+            <a href="index.html"><img class="logo" src="img/iconografia/logo-blanco.svg"
+                    alt="logo chamberlain coffee"></a>
+            <nav>
+                <ul>
+                    <li></li>
+                    <li><a href="#"><img class="icono" src="img/iconografia/carrito-blanco.png" alt="carrito"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="bg-celeste" id="contenedor-scallop">
+        <img class="scalloped-edge" src="img/scalloped-edge-verde.png" alt="borde escamado header">
+    </div>
+
+    <main>
+        <div class="tienda-titulo">
+            <h2>Tienda</h2>
+        </div>
+        <section class="tienda">
+            <div class="contenedor">
+                <div class="opciones-busqueda">
+                    <div class="bg-filtros">
+                        <div class="filtros">
+                            <button class="filtro filtro-activo" data-categoria="todo">Todo</button>
+                            <button class="filtro" data-categoria="café">Café</button>
+                            <button class="filtro" data-categoria="cold brew">Cold Brew</button>
+                            <button class="filtro" data-categoria="matcha">Matcha</button>
+                        </div>
+                    </div>
+                    <div class="bg-search">
+                        <span class="icono-lupa">
+                            <img src="img/iconografia/search.png" alt="icono lupa">
+                        </span>
+                        <input type="text" name="buscador" id="searchBar" placeholder="Buscar producto...">
+                    </div>
+                </div>
+                <p class="mensaje-vacio">No se encontraron productos.</p>
+                <div class="catalogo"></div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img src="img/iconografia/sol.png" alt="dibujo sol con carita">
+            <p class="p-chico">Imágenes sacadas de<br>chamberlaincoffee.con</p>
+        </div>
+        <div>
+            <a href="https://www.tiktok.com/@chamberlaincoffee?lang=es"><img src="img/iconografia/icono-twitter.png"
+                    alt="icono twitter"></a>
+            <a href="https://www.pinterest.com/chamberlaincoffeepins/"><img src="img/iconografia/icono-pinterest.png"
+                    alt="icono pinterest"></a>
+            <a href="https://www.instagram.com/chamberlaincoffee/"><img src="img/iconografia/icono-instagram.png"
+                    alt="icono instagram"></a>
+        </div>
+    </footer>
+
+    <script src="js/datos.js"></script>
+    <script src="js/catalogo.js"></script>
+</body>
+
+</html>
